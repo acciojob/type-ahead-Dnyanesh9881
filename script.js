@@ -2,7 +2,7 @@
 // Wait for the DOM to be fully loaded
 // document.addEventListener('DOMContentLoaded', function () {
     const typeaheadInput = document.getElementById('typeahead');
-    const suggestionsList = document.getElementById('suggestions-list');
+    const suggestionsList = document.getElementById('suggestions-list li');
     let timeoutId;
 
     // Function to clear suggestions
